@@ -1,0 +1,21 @@
+OpenWeatherMap
+
+b534a00cf9cc5fb882c7a83f97d75904
+
+How to make an API call
+API call
+
+https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
+
+Parameters
+lat	required	Latitude. If you need the geocoder to automatic convert city names and zip-codes to geo coordinates and the other way around, please use our Geocoding API
+lon	required	Longitude. If you need the geocoder to automatic convert city names and zip-codes to geo coordinates and the other way around, please use our Geocoding API
+appid	required	Your unique API key (you can always find it on your account page under the "API key" tab)
+mode	optional	Response format. Possible values are xml and html. If you don't use the mode parameter format is JSON by default. Learn more
+units	optional	Units of measurement. standard, metric and imperial units are available. If you do not use the units parameter, standard units will be applied by default.
+Learn more
+lang	optional	You can use this parameter to get the output in your language. Learn more
+
+Examples of API calls
+
+https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid={API key}
